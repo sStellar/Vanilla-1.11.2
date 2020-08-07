@@ -1,0 +1,51 @@
+[01:06:57] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[01:06:57] [Server thread/INFO]: Loading properties
+[01:06:57] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at lh$2.run(SourceFile:95) [minecraft_server.1.11.2%20(1).jar:?]
+[01:06:57] [Server thread/INFO]: Default game type: SURVIVAL
+[01:06:57] [Server thread/INFO]: Generating keypair
+[01:06:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:06:57] [Server thread/INFO]: Using default channel type
+[01:06:58] [Server thread/INFO]: Preparing level "world"
+[01:06:58] [Server thread/INFO]: Preparing start region for level 0
+[01:06:59] [Server thread/INFO]: Preparing spawn area: 9%
+[01:06:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID cd10eeac-03d6-4ed1-9461-42d70fa2b2d5
+[01:06:59] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID 6b8d18d5-2a28-417d-a75e-1c30a8b88638
+[01:06:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID e34e2631-4fda-44ed-bb31-a2508af57e9f
+[01:06:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID 22bcb190-73ab-49d4-b4e9-98d0140c97da
+[01:06:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID f9e250c5-19e6-4bc4-87a6-6c04683f4581
+[01:06:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID 5b66813e-d5d3-4f16-a429-8cb87e55a8ff
+[01:06:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID dbc637bd-9cc7-4249-a1a0-805cdc11ec56
+[01:06:59] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID 2f8c503a-db86-4429-8bbb-99f22631b55e
+[01:07:00] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID 87d5ae87-654e-4ee6-b56d-e50260648781
+[01:07:00] [Server thread/INFO]: Preparing spawn area: 81%
+[01:07:00] [Server thread/INFO]: Done (2,494s)! For help, type "help" or "?"
+[01:08:54] [User Authenticator #1/INFO]: UUID of player Rex_Stellar is 1f2cc5d6-cbeb-4c9b-b383-e4402ef9a335
+[01:08:54] [Server thread/INFO]: Rex_Stellar[/192.168.1.64:49936] logged in with entity id 261 at (-366.35940733322576, 114.83061149032063, -25.99697304703446)
+[01:08:54] [Server thread/INFO]: Rex_Stellar joined the game
+[01:11:58] [Server thread/WARN]: Rex_Stellar moved too quickly! 313.70491687784875,8.0,-17.424892901646555
+[01:12:09] [Server thread/WARN]: Rex_Stellar moved too quickly! -311.7419983598369,-8.0,17.115074457401064
+[01:12:11] [Server thread/WARN]: Rex_Stellar moved too quickly! 313.1272594467449,8.0,-17.231815667738534
+[01:12:15] [Server thread/WARN]: Rex_Stellar moved too quickly! -312.6077836480433,-8.0,17.546531759711822
+[01:21:36] [Server thread/INFO]: Rex_Stellar lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[01:21:36] [Server thread/INFO]: Rex_Stellar left the game
+[01:22:35] [Server thread/INFO]: Stopping the server
+[01:22:35] [Server thread/INFO]: Stopping server
+[01:22:35] [Server thread/INFO]: Saving players
+[01:22:35] [Server thread/INFO]: Saving worlds
+[01:22:35] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[01:22:35] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[01:22:35] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[01:22:35] [Server Shutdown Thread/INFO]: Stopping server
